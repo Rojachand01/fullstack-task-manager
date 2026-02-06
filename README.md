@@ -49,4 +49,71 @@ http://localhost:5000/api-docs/
 ## Run Locally
 
 ### Backend
+### 1. Clone Repository
+git clone https://github.com/Rojachand01/fullstack-task-manager.git
+
+cd fullstack-task-manager
+
+
+---
+
+### 2. Setup Backend
+cd backend
+npm install
+
+Create `.env` file inside **backend**:
+
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+
+
+Run backend:
+
+node server.js
+
+
+---
+
+### 3. Setup Frontend
+cd frontend
+npm install
+npm start
+
+
+Frontend will run on:
+
+http://localhost:3000/
+
+
+---
+
+## API Documentation
+
+Swagger UI available at:
+/api-docs
+http://localhost:5000/api-docs/
+
+
+---
+
+## Scalability Notes
+
+This application can scale using:
+
+- **Microservices architecture** for separating auth, tasks, and users
+- **Redis caching** to reduce database load
+- **Load balancing & horizontal scaling** in cloud environments
+- **Cloud storage services** for handling large assets
+- **Containerization (Docker/Kubernetes)** for production orchestration
+
+---
+
+## Author
+
+**Roja**
+
+
+
+
 
