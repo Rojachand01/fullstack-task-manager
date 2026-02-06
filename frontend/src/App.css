@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  background: #0f172a;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input,
+textarea {
+  border-radius: 6px;
+  border: 1px solid #555;
+  background: #1e293b;
+  color: white;
+}
+
+button {
+  background: #22c55e;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #16a34a;
+}
